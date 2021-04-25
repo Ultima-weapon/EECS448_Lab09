@@ -1,0 +1,97 @@
+body {
+	background-color: #333333;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: #dddddd;
+	text-align: left;
+}
+
+div {
+	color: white;
+	display: block;
+	overflow: auto;
+}
+
+.form {
+	display: inline-block;
+	width: 80%;
+	margin-bottom: 1rem;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.receipt {
+	width: 80%;
+	background-color: #444444;
+	color: white;
+	font-family: "Courier New";
+	font-size: 14pt;
+	padding: 10px;
+	display: block;
+	overflow: auto;
+	border-radius: 15px;
+	border: 1px solid grey;
+}
+
+label {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+input[type="number"] {
+	width: 60px;
+	height: 24px;
+	text-align: right;
+}
+
+input[type="submit"] {
+	margin-top: 1rem;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	text-align: left;
+	border: 1px solid grey;
+	float: left;
+	margin: 10px;
+}
+
+p {
+	background-color: #444444;
+	color: white;
+	font-family: "Courier New";
+	font-size: 14pt;
+	padding: 10px;
+	display: block;
+	overflow: auto;
+	border-radius: 15px;
+	border: 1px solid grey;
+}
+
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+
+th, td {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}

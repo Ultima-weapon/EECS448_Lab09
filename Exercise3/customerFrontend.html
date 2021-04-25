@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Web Store</title>
+		<link href="css\style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- Heading -->
+		<div id="header" class="title-header">
+			<h1 id="title">Web Store</h1>
+		</div>
+		<div align="center">
+			<form id="theForm" action="php/customerBackend.php" method="post">
+				<div class="form"> 
+					<h3> Item 1: Name of Item 1</h3>
+					<img src="pics\image-placeholder-350x350.png">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus.
+					</p>
+					<div class="alignRight">
+						<label for="itemCount1">Unit Price: <b>$4.95</b> x Quantity:</label>
+						<input type="number" value="1" min="0" id="itemCount1" name="itemCount1" required><br>
+					</div>
+				</div><br/>
+				<div class="form"> 
+					<h3> Item 2: Name of Item 2</h3>
+					<img src="pics\image-placeholder-350x350.png">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus.
+					</p>
+					<div class="alignRight">
+						<label for="itemCount2">Unit Price: <b>$15.98</b> x Quantity:</label>
+						<input type="number" value="1" min="0" id="itemCount2" name="itemCount2" required><br>
+					</div>
+				</div><br/>
+				<div class="form"> 
+					<h3> Item 3: Name of Item 3</h3>
+					<img src="pics\image-placeholder-350x350.png">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus.
+					</p>
+					<div class="alignRight">
+						<label for="itemCount3">Unit Price: <b>$2.99</b> x Quantity:</label>
+						<input type="number" value="1" min="0" id="itemCount3" name="itemCount3" required><br>
+					</div>
+				</div><br/>
+				<div class="form"> 
+					<div class="alignRight">
+						<b>Shipping Options:</b><br/>
+						<label for="1">Free (7-Day)</label>
+						<input type="radio" name="shipping" value="1" id="ship1" checked/><br/>
+						<label for="2">$50.00 (Overnight)</label>
+						<input type="radio" name="shipping" value="2" id="ship2"/><br/>
+						<label for="3">$5.00 (3-Day)</label>
+						<input type="radio" name="shipping" value="3" id="ship3"/><br/>
+					</div>
+				</div><br/>
+				<div class="form"> 
+					<div class="alignRight">
+						<label for="username"><b>Username</b> (Email):</label>
+						<input type="email" name="username" id="username" required>
+					</div>
+					<div class="alignRight">
+						<label for="password"><b>Password</b>:</label>
+						<input type="password" name="password" id="password" required>
+					</div>
+				</div><br/>
+				<div class="form">
+					<div class="alignRight">
+						<input type="reset" value="Reset" name="reset"/>
+						<input type="submit" value="Submit" name="submit" id="submit"/>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- JavaScript includes -->
+        <script type="text/javascript" src="js/formChecker.js"></script>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Quiz</title>
+		<link href="css\style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- Heading -->
+		<div id="header" class="title-header">
+			<h1 id="title">Quiz</h1>
+		</div>
+		<div>
+			<form action="php/quiz.php" method="post">
+				<div class="form"> 
+					<h3> Question 1: If soccer is called football in England, what is American football called in England?</h3>
+					<ol>
+						<li><input type="radio" name="q1" value="3" /> Handball</li>
+						<li><input type="radio" name="q1" value="1" /> American football</li>
+						<li><input type="radio" name="q1" value="2" /> Combball</li>
+						<li><input type="radio" name="q1" value="4" /> Touchdown</li>
+					</ol>
+				</div><br/>
+				<div class="form"> 
+					<h3> Question 2: What is the largest country in the world?</h3>
+					<ol>
+						<li><input type="radio" name="q2" value="2" /> Canada</li>
+						<li><input type="radio" name="q2" value="3" /> China</li>
+						<li><input type="radio" name="q2" value="1" /> Russia</li>
+						<li><input type="radio" name="q2" value="4" /> United States</li>
+					</ol>
+				</div><br/>
+				<div class="form"> 
+					<h3> Question 3: An organic compound is considered an alcohol if it has what functional group?</h3>
+					<ol>
+						<li><input type="radio" name="q3" value="3" /> Alkyl</li>
+						<li><input type="radio" name="q3" value="2" /> Carbonyl</li>
+						<li><input type="radio" name="q3" value="1" /> Hydroxyl</li>
+						<li><input type="radio" name="q3" value="4" /> Aldehyde</li>
+					</ol>
+				</div><br/>
+				<div class="form"> 
+					<h3> Question 4: What is the 100th digit of Pi?</h3>
+					<ol>
+						<li><input type="radio" name="q4" value="1" /> 9</li>
+						<li><input type="radio" name="q4" value="2" /> 4</li>
+						<li><input type="radio" name="q4" value="3" /> 7</li>
+						<li><input type="radio" name="q4" value="4" /> 2</li>
+					</ol>
+				</div><br/>
+				<div class="form"> 
+					<h3> Question 5: A doctor with a PhD is a doctor of what?</h3>
+					<ol>
+						<li><input type="radio" name="q5" value="2" /> Psychology</li>
+						<li><input type="radio" name="q5" value="4" /> Physical Therapy</li>
+						<li><input type="radio" name="q5" value="3" /> Phrenology</li>
+						<li><input type="radio" name="q5" value="1" /> Philosophy</li>
+					</ol>
+				</div><br/>
+				<div class="submit">
+					<input type="submit" value="Submit quiz" name="submit"/>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
